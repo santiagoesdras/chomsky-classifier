@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output
+output/diagrams/*
+output/reports/*
+learning_memory.json
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db

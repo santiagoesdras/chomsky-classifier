@@ -1,0 +1,19 @@
+S → aA
+A → b
+
+S → aSb
+S → ab
+
+S → aA | bB
+B → b | ε
+
+S → aSb | aA | b
+A → aA | b
+
+S → aA | bB
+A → aA | b
+B → bB | a
+
+S → aA | bB
+A → aA | b
+B → bB | a | ε
